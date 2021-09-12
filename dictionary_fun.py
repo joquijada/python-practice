@@ -19,9 +19,9 @@ print(my_dict.get('foo', 'bar'))
 print(my_dict.setdefault('bull', 'dong'))
 
 print(my_dict)
-
++
 # Accessing dictionaries, can't use index, below throws KeyError
-#print(my_dict[0])
+# print(my_dict[0])
 
 # Below outputs the keys of dictionary as an object of type 'dict_keys', which is an iterable
 # and therefore can be used inside a 'for' loop
@@ -35,3 +35,9 @@ print(list(my_dict))
 
 # Randomly select a key/val pair from a dictionary, [REF|https://stackoverflow.com/questions/4859292/how-to-get-a-random-value-from-dictionary|"and now asks for a pair"]
 print(random.choice(list(my_dict.items())))
+
+# self.http_headers.update({'x-stat-contentVersion': 'OTT'})
+print(my_dict['shit'])
+
+my_dict.update({'addedWithUpdateKey': 'addedWithUpdateValue'})
+print(my_dict)
