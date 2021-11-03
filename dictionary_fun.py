@@ -11,7 +11,8 @@ my_dict = {'shit': 'crap'}
 # would go to dereference a property of a 'null' object
 # print(my_dict['foo'])
 
-# Below is one way to check if a dictionary contains a key, https://stackoverflow.com/questions/1602934/check-if-a-given-key-already-exists-in-a-dictionary
+# Below is one way to check if a dictionary contains a key,
+# https://stackoverflow.com/questions/1602934/check-if-a-given-key-already-exists-in-a-dictionary
 print('foo' in my_dict)
 print('shit' in my_dict)
 
@@ -32,7 +33,7 @@ print(my_dict)
 my_keys = my_dict.keys()
 print(my_keys)
 for key in my_keys:
-	print(key)
+    print(key)
 
 # ...and so does this
 print(list(my_dict))
