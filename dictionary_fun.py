@@ -15,6 +15,7 @@ my_dict = {'shit': 'crap'}
 # https://stackoverflow.com/questions/1602934/check-if-a-given-key-already-exists-in-a-dictionary
 print('foo' in my_dict)
 print('shit' in my_dict)
+print(my_dict.has_key('shot'))
 
 # Below does not work like Groovy's default Map.get('key', 'default val'), because it will not
 # insert the default, just returns it...
